@@ -214,14 +214,14 @@
                     <div class="col-sm-12">
                         <div class="title-box wow fadeInUp text-center">
                             <span class="title-design">Team</span>
-                            <h2>Management Team</h2>
+                            <h2>Deep Conclusions Team</h2>
                         </div>
                     </div>
                     <div class="col-md-12 wow fadeInUp ">
                         <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-items="4" data-items-laptop="4" data-items-tab="3" data-items-mobile="1" data-items-mobile-sm="1" data-autoplay="true" data-loop="true" data-margin="30">
                             <div class="item text-left">
                                 <div class="iq-team">
-                                    <div class="iq-team-img"> <img src="{{ asset('assets/images/team/1.jpg') }}" class="img-fluid" alt="#1"> </div>
+                                    <div class="iq-team-img"> <img src="{{ asset('assets/images/team/20.jpg') }}" class="img-fluid" alt="#1"> </div>
                                     <div class="iq-share">
                                         <div class="slideouticons">
                                             <label class="mainlabel"><i class="fa fa-share-alt"></i></label>
@@ -236,15 +236,16 @@
                                     </div>
                                     <div class="iq-team-info text-center">
                                         <a>
-                                            <h5>Anna Mull</h5>
+                                            <h5>EXPEDITO OLIMI</h5>
                                         </a>
-                                        <span>COO</span>
+                                        <span>FOUNDER</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="item text-left">
                                 <div class="iq-team">
-                                    <div class="iq-team-img"> <img src="{{ asset('assets/images/team/2.jpg') }}" class="img-fluid" alt="#1"> </div>
+                                    <div class="iq-team-img"> <img src="{{ asset('assets/images/team/20.jpg') }}" class="img-fluid" alt="#1"> </div>
                                     <div class="iq-share">
                                         <div class="slideouticons">
                                             <label class="mainlabel"><i class="fa fa-share-alt"></i></label>
@@ -259,15 +260,16 @@
                                     </div>
                                     <div class="iq-team-info text-center">
                                         <a>
-                                            <h5>Petey Cruiser</h5>
+                                            <h5>HENRY</h5>
                                         </a>
-                                        <span>Project Manager</span>
+                                        <span>FOUNDER</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="item text-left">
                                 <div class="iq-team">
-                                    <div class="iq-team-img"> <img src="{{ asset('assets/images/team/3.jpg') }}" class="img-fluid" alt="#1"> </div>
+                                    <div class="iq-team-img"> <img src="{{ asset('assets/images/team/20.jpg') }}" class="img-fluid" alt="#1"> </div>
                                     <div class="iq-share">
                                         <div class="slideouticons">
                                             <label class="mainlabel"><i class="fa fa-share-alt"></i></label>
@@ -282,15 +284,16 @@
                                     </div>
                                     <div class="iq-team-info text-center">
                                         <a>
-                                            <h5>Greta Life</h5>
+                                            <h5>KIBEKITYO JUMA SAFARAA</h5>
                                         </a>
-                                        <span>Greta Life</span>
+                                        <span>DATA SCIENTIST</span>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="item text-left">
                                 <div class="iq-team">
-                                    <div class="iq-team-img"> <img src="{{ asset('assets/images/team/4.jpg') }}" class="img-fluid" alt="#1"> </div>
+                                    <div class="iq-team-img"> <img src="{{ asset('assets/images/team/20.jpg') }}" class="img-fluid" alt="#1"> </div>
                                     <div class="iq-share">
                                         <div class="slideouticons">
                                             <label class="mainlabel"><i class="fa fa-share-alt"></i></label>
@@ -305,35 +308,15 @@
                                     </div>
                                     <div class="iq-team-info text-center">
                                         <a>
-                                            <h5>Marcash Dane</h5>
+                                            <h5>MORRIS</h5>
                                         </a>
-                                        <span>Project Manager</span>
+                                        <span>DATA SCIENTIST</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item text-left">
-                                <div class="iq-team">
-                                    <div class="iq-team-img"> <img src="{{ asset('assets/images/team/5.jpg') }}" class="img-fluid" alt="#1"> </div>
-                                    <div class="iq-share">
-                                        <div class="slideouticons">
-                                            <label class="mainlabel"><i class="fa fa-share-alt"></i></label>
-                                            <div class="iconswrapper">
-                                                <ul>
-                                                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="iq-team-info text-center">
-                                        <a>
-                                            <h5>Handry White</h5>
-                                        </a>
-                                        <span>Project Manager</span>
-                                    </div>
-                                </div>
-                            </div>
+                            
+                            
+                        
                         </div>
                     </div>
                 </div>
@@ -341,23 +324,9 @@
                     <div class="col-md-12 wow fadeInUp">
                         <div class="owl-carousel mt-4 client-logo owl-loaded owl-drag" data-dots="false" data-nav="false" data-items="6" data-items-laptop="4" data-items-tab="3" data-items-mobile="2" data-items-mobile-sm="1" data-autoplay="true" data-loop="true" data-margin="30">
                             <div class="item">
-                                <div class="clients-box hover-effct"> <img class="img-fluid client-img" src="{{ asset('assets/images/partners/1.png') }}" alt="client-image"> </div>
+                                <div class="clients-box hover-effct"> <img class="img-fluid client-img" src="{{ asset('assets/images/partners/20.png') }}" alt="prtners-image"> </div>
                             </div>
-                            <div class="item">
-                                <div class="clients-box hover-effct"> <img class="img-fluid client-img" src="{{ asset('assets/images/partners/2.png') }}" alt="client-image"> </div>
-                            </div>
-                            <div class="item">
-                                <div class="clients-box hover-effct"> <img class="img-fluid client-img" src="{{ asset('assets/images/partners/3.png') }}" alt="client-image"> </div>
-                            </div>
-                            <div class="item">
-                                <div class="clients-box hover-effct"> <img class="img-fluid client-img" src="{{ asset('assets/images/partners/4.png') }}" alt="client-image"> </div>
-                            </div>
-                            <div class="item">
-                                <div class="clients-box hover-effct"> <img class="img-fluid client-img" src="{{ asset('assets/images/partners/5.png') }}" alt="client-image"> </div>
-                            </div>
-                            <div class="item">
-                                <div class="clients-box hover-effct"> <img class="img-fluid client-img" src="{{ asset('assets/images/partners/1.png') }}" alt="client-image"> </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

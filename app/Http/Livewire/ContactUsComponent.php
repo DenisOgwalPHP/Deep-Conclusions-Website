@@ -1,13 +1,47 @@
 <?php
 
 namespace App\Http\Livewire;
-
+use App\Models\Setting;
+use App\Models\Contact;
 use Livewire\Component;
 
 class ContactUsComponent extends Component
 {
+    public $name;
+    public $email;
+    public $phone;
+    public $subject;
+    public $comment;
+    public function updated($fields){
+        $this->validateOnly($fields,[
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'subject' => 'required',
+            'comment' => 'required'
+        ]);
+    }
+    public function sendMessage(){
+        $this->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'subject' => 'required',
+            'comment' => 'required'
+        ]);
+        $contact = new Contact();
+        $contact->name = $this->name;
+        $contact->email = $this->email;
+        $contact->phone = $this->phone;
+        $contact->subject = $this->subject;
+        $contact->comment = $this->comment;
+        $contact->save();
+        session()->flash('message', 'Thanks, Your message has been sent successfully ');
+    }
+    
     public function render()
     {
-        return view('livewire.contact-us-component');
+        $setting = Setting::find(1);
+        return view('livewire.contact-us-component',['setting' => $setting])->layout('layouts.base');
     }
 }

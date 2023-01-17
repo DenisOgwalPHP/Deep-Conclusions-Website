@@ -1,4 +1,12 @@
 <div>
+    <style>
+        nav svg{
+            height: 20px;
+        }
+        nav .hidden{
+            display: block !important;
+        }
+    </style>
     <div class="text-left iq-breadcrumb-one iq-bg-over black">
         <div class="container">
           <div class="row align-items-center">

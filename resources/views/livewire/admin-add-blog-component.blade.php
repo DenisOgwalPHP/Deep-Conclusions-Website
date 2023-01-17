@@ -44,7 +44,7 @@
                             <div class="form-group">
                                 <label for="" class="col-md-4 control-lable">Blog Name</label>
                                 <div class="col-md-4">
-                                    <input type="text" placeholder="Product Name" class="form-control input-md" wire:model="name" wire:keyup="generateslug">
+                                    <input type="text" placeholder="Blog Name" class="form-control input-md" wire:model="name" wire:keyup="generateslug">
                                     @error('name')
                                     <p class="text-danger">{{ $message }}</p>
                                 @enderror

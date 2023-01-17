@@ -55,9 +55,9 @@
                   data-frame_999="o:0;st:w;sR:7500;"
                   style="z-index: 8; font-family: Lato"
                 >
-                Software Consulting And Develpment
+                Data Science
                 <br />
-                For Your Digital Success
+                For Your  Success
                 </h2>
                 <!--
                                   -->
@@ -74,7 +74,7 @@
                   data-frame_1_mask="u:t;"
                   data-frame_999="o:0;st:w;sR:7200;"
                   style="z-index: 9; font-family: Karla"
-                  >Sigma collects data, transform it for analysis, runs<br />
+                  >Deep Conclusions collects data, transform it for analysis, runs<br />
                   analytical algorithms, and prepare visualizations.
                 </rs-layer>
                 <!--
@@ -651,8 +651,8 @@
                 <div class="row ">
                     <div class="col-md-12">
                         <div class="title-box wow fadeInUp text-center">
-                            <span class="title-design">How it’s work</span>
-                            <h2>How Does Xamin Works</h2>
+                            <span class="title-design">How it works</span>
+                            <h2>How Does Deep Conclusion Work</h2>
                         </div>
                     </div>
                 </div>
@@ -722,7 +722,7 @@
                                 <div id="tab-big-data" class="tab-pane fade active show">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <h4 class="custom_heading mb-2">Choose Your Software Development Service by Category </h4>
+                                            <h4 class="custom_heading mb-2">Choose Your Data Science Service by Category </h4>
                                             <div class="text-left mb-3">
                                                 <p>Tame your big data through robust solutions that empower data collection, storage, processing and analysis.</p>
                                             </div>
@@ -763,11 +763,10 @@
                                 <div id="tab-machine-learning" class="tab-pane fade">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <h4 class="custom_heading mb-2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</h4>
-                                            <div class="text-left no-margin">
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.
-                                                    </p>
-                                            </div>
+                                          <h4 class="custom_heading mb-2">Choose Your Data Science Service by Category </h4>
+                                          <div class="text-left mb-3">
+                                              <p>Tame your big data through robust solutions that empower data collection, storage, processing and analysis.</p>
+                                          </div>
                                             <div class=" text-left mt-4 mb-lg-0 mb-md-0 mb-4 "> <a class="button button-icon" href="services.html"><span class="btn-effect"> Read More</span></a></div>
                                         </div>
                                         <div class="col-sm-6">
@@ -786,10 +785,10 @@
                                 <div id="tab-analytical-ai" class="tab-pane fade">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <h4 class="custom_heading mb-2">Choose Your Software Development Service by Category </h4>
-                                            <div class="text-left mb-3">
-                                                <p>Tame your big data through robust solutions that empower data collection, storage, processing and analysis.</p>
-                                            </div>
+                                          <h4 class="custom_heading mb-2">Choose Your Data Science Service by Category </h4>
+                                          <div class="text-left mb-3">
+                                              <p>Tame your big data through robust solutions that empower data collection, storage, processing and analysis.</p>
+                                          </div>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -827,11 +826,10 @@
                                 <div id="tab-computer-vision" class="tab-pane fade">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <h4 class="custom_heading mb-2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</h4>
-                                            <div class="text-left no-margin">
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.
-                                                    </p>
-                                            </div>
+                                          <h4 class="custom_heading mb-2">Choose Your Data Science Service by Category </h4>
+                                          <div class="text-left mb-3">
+                                              <p>Tame your big data through robust solutions that empower data collection, storage, processing and analysis.</p>
+                                          </div>
                                             <div class=" text-left mt-4 mb-lg-0 mb-md-0 mb-4 "> <a class="button button-icon" href="services.html"><span class="btn-effect"> Read More</span></a></div>
                                         </div>
                                         <div class="col-sm-6">
@@ -870,10 +868,10 @@
                                 <div class="col-lg-12">
                                     <ul class="nav  justify-content-center" id="myTab" role="tablist">
                                         <li><a class="nav-link show active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-selected="true">All<span class="post_no">8</span></a></li>
-                                        <li><a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab">Design<span class="post_no">3</span></a></li>
-                                        <li><a class="nav-link" id="html-tab" data-toggle="tab" href="#html" role="tab">HTML<span class="post_no">2</span></a></li>
-                                        <li><a class="nav-link" id="photography-tab" data-toggle="tab" href="#photography" role="tab">Photography<span class="post_no">3</span></a></li>
-                                        <li><a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab">Video<span class="post_no">1</span></a></li>
+                                        <li><a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab">Big Data<span class="post_no">3</span></a></li>
+                                        <li><a class="nav-link" id="html-tab" data-toggle="tab" href="#html" role="tab">Machine Learning<span class="post_no">2</span></a></li>
+                                        <li><a class="nav-link" id="photography-tab" data-toggle="tab" href="#photography" role="tab">Analytical AI<span class="post_no">3</span></a></li>
+                                        <li><a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab">Computer Vision<span class="post_no">1</span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1309,7 +1307,7 @@
         </section> --}}
         <!-- Customer End -->
         <!-- Testimonial -->
-        <section class="bg-with-image-home2">
+      {{--  <section class="bg-with-image-home2">
           <div class="container">
             <div class="row">
               <div class="col-sm-12 wow fadeInUp">
@@ -1398,7 +1396,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section>--}}
         <!-- Testimonial End -->
         <!-- Blog -->
         <section class="pt-0">
@@ -1422,6 +1420,7 @@
                     data-autoplay="true"
                     data-loop="true"
                   >
+                  @foreach ($l_blogs as $l_blog)
                     <div class="item">
                       <div class="iq-blog-box mb-0">
                         <div class="iq-blog-image clearfix">
@@ -1430,186 +1429,38 @@
                             class="img-fluid center-block"
                             alt="blogimage1"
                           />
-                          <ul class="iq-blogtag">
+                          <!--<ul class="iq-blogtag">
                             <li><a href="blog.html">HTML</a></li>
-                          </ul>
+                          </ul>-->
                         </div>
                         <div class="iq-blog-detail">
                           <div class="iq-blog-meta">
                             <ul>
                               <li class="list-inline-item">
                                 <a href="blog-details.html" rel="bookmark">
-                                  <time
-                                    class="entry-date published updated"
-                                    datetime="2019-09-26T06:49:49+00:00"
-                                    >September 26, 2019
+                                  <time class="entry-date published updated" datetime="2019-09-26T06:49:49+00:00">
+                                    {{date('d F, Y', strtotime(   $l_blog->created_at )) }}
                                   </time>
                                 </a>
                               </li>
                             </ul>
                           </div>
                           <div class="blog-title">
-                            <a href="blog-details.html">
-                              <h4>Build Construction</h4>
+                            <a href="{{ route('blog.details', ['slug' => $l_blog->slug]) }}">
+                              <h4>{{$l_blog->name}}</h4>
                             </a>
                           </div>
                           <p>
-                            They bring to you a host of beautifully created
-                            infographics that contain the latest digital
-                            marketing.
+                            {!!Str::limit(strip_tags($l_blog->description),100,'...')  !!}
                           </p>
                           <div class="blog-button">
-                            <a class="button-link" href="blog-details.html"
-                              >Read More<i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                            ></a>
+                            <a class="button-link" href="{{ route('blog.details', ['slug' => $l_blog->slug]) }}">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="item">
-                      <div class="iq-blog-box mb-0">
-                        <div class="iq-blog-image clearfix">
-                          <img
-                            src="{{ asset('assets/images/about-us/06.png') }}"
-                            class="img-fluid center-block"
-                            alt="blogimage2"
-                          />
-                          <ul class="iq-blogtag">
-                            <li><a href="blog.html">Design</a></li>
-                          </ul>
-                        </div>
-                        <div class="iq-blog-detail">
-                          <div class="iq-blog-meta">
-                            <ul>
-                              <li class="list-inline-item">
-                                <a href="blog-details.html" rel="bookmark">
-                                  <time
-                                    class="entry-date published updated"
-                                    datetime="2019-09-26T06:49:49+00:00"
-                                    >September 26, 2019
-                                  </time>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="blog-title">
-                            <a href="blog-details.html">
-                              <h4>Life Lack Meaning</h4>
-                            </a>
-                          </div>
-                          <p>
-                            They bring to you a host of beautifully created
-                            infographics that contain the latest digital
-                            marketing.
-                          </p>
-                          <div class="blog-button">
-                            <a class="button-link" href="blog-details.html"
-                              >Read More<i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="iq-blog-box mb-0">
-                        <div class="iq-blog-image clearfix">
-                          <img
-                            src="{{ asset('assets/images/about-us/04.png') }}"
-                            class="img-fluid center-block"
-                            alt="blogimage3"
-                          />
-                          <ul class="iq-blogtag">
-                            <li><a href="blog.html">HTML</a></li>
-                          </ul>
-                        </div>
-                        <div class="iq-blog-detail">
-                          <div class="iq-blog-meta">
-                            <ul>
-                              <li class="list-inline-item">
-                                <a href="blog-details.html" rel="bookmark">
-                                  <time
-                                    class="entry-date published updated"
-                                    datetime="2019-09-26T06:49:49+00:00"
-                                    >September 26, 2019
-                                  </time>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="blog-title">
-                            <a href="blog-details.html">
-                              <h4>Construction industry</h4>
-                            </a>
-                          </div>
-                          <p>
-                            They bring to you a host of beautifully created
-                            infographics that contain the latest digital
-                            marketing.
-                          </p>
-                          <div class="blog-button">
-                            <a class="button-link" href="blog-details.html"
-                              >Read More<i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="iq-blog-box mb-0">
-                        <div class="iq-blog-image clearfix">
-                          <img
-                            src="{{ asset('assets/images/about-us/05.png') }}"
-                            class="img-fluid center-block"
-                            alt="blogimage4"
-                          />
-                          <ul class="iq-blogtag">
-                            <li><a href="blog.html">CSS</a></li>
-                          </ul>
-                        </div>
-                        <div class="iq-blog-detail">
-                          <div class="iq-blog-meta">
-                            <ul>
-                              <li class="list-inline-item">
-                                <a href="blog-details.html" rel="bookmark">
-                                  <time
-                                    class="entry-date published updated"
-                                    datetime="2019-09-26T06:49:49+00:00"
-                                    >September 26, 2019
-                                  </time>
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="blog-title">
-                            <a href="blog-details.html">
-                              <h4>Content Marketing</h4>
-                            </a>
-                          </div>
-                          <p>
-                            They bring to you a host of beautifully created
-                            infographics that contain the latest digital
-                            marketing.
-                          </p>
-                          <div class="blog-button">
-                            <a class="button-link" href="blog-details.html"
-                              >Read More<i
-                                class="fa fa-angle-right"
-                                aria-hidden="true"
-                              ></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    @endforeach
+
                   </div>
                 </div>
               </div>
@@ -1652,114 +1503,7 @@
                       />
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/2.png') }}"
-                        alt="image1"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/3.png') }}"
-                        alt="image2"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/4.png') }}"
-                        alt="image3"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/5.png') }}"
-                        alt="image4"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/1.png') }}"
-                        alt="image5"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/2.png') }}"
-                        alt="image6"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/3.png') }}"
-                        alt="image7"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/4.png') }}"
-                        alt="image8"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/5.png') }}"
-                        alt="image9"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/1.png') }}"
-                        alt="image10"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/2.png') }}"
-                        alt="image11"
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="clients-box">
-                      <img
-                        class="img-fluid client-img"
-                        src="{{ asset('assets/images/partners/3.png') }}"
-                        alt="image12"
-                      />
-                    </div>
-                  </div>
+                
                 </div>
               </div>
             </div>

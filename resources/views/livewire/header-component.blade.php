@@ -6,13 +6,13 @@
               <div class="number-info">
                 <ul class="list-inline">
                   <li class="list-inline-item">
-                    <a href="mailto:support@iqnonicthemes.com">
-                      <i class="fa fa-envelope"></i>support@iqnonicthemes.com</a
+                    <a href="mailto:{{ $setting->email }}">
+                      <i class="fa fa-envelope"></i>{{ $setting->email }}</a
                     >
                   </li>
                   <li class="list-inline-item">
-                    <a href="tel:+0123456789">
-                      <i class="fa fa-phone"></i>+0123456789</a
+                    <a href="tel:{{ $setting->phone }}">
+                      <i class="fa fa-phone"></i>{{ $setting->phone }}</a
                     >
                   </li>
                 </ul>
@@ -22,13 +22,13 @@
               <div class="social-icone">
                 <ul class="list-inline">
                   <li class="d-inline">
-                    <a href="#"> <i class="fa fa-facebook-f"></i> </a>
+                    <a href="{{ $setting->facebook }}"> <i class="fa fa-facebook-f"></i> </a>
                   </li>
                   <li class="d-inline">
-                    <a href="#"> <i class="fa fa-twitter"></i> </a>
+                    <a href="{{ $setting->twitter }}"> <i class="fa fa-twitter"></i> </a>
                   </li>
                   <li class="d-inline">
-                    <a href="#"> <i class="fa fa-instagram"></i> </a>
+                    <a href="{{ $setting->instagram }}"> <i class="fa fa-instagram"></i> </a>
                   </li>
                 </ul>
               </div>
@@ -43,7 +43,7 @@
                   <img
                     class="img-fluid logo"
                     src="{{ asset('assets/images/white-logo.png') }}"
-                    alt="xamin"
+                    alt="Deep Conclusions"
                   />
                 </a>
                 <button
@@ -61,14 +61,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <div class="menu-main-menu-container">
+                    @php
+                        $navlinks = array ( 'products' => 'Products', 'agri-inputs' => 'Agri-Inputs', 'blogs' => 'Blogs', 'contact-us' => 'Contact Us');
+                        $current_page = substr($_SERVER['REQUEST_URI'], 1);  // trim off the leading slash
+                        $current_page = str_replace('.php', '', $current_page);  // trim off the extension
+                    @endphp
                     <ul id="top-menu" class="navbar-nav ml-auto">
-                      <li class="menu-item current-menu-item">
+                      <li class="menu-item {{ $current_page == '' ? 'current-menu-item': '' }}" >
                         <a href="/">Home</a>
                       </li>
-                      <li class="menu-item">
+                      <li class="menu-item {{ $current_page == 'about-us' ? 'current-menu-item': '' }}">
                         <a href="{{ route('about') }}">About Us</a>
                       </li>
-                      <li class="menu-item">
+                      <li class="menu-item  {{ $current_page == 'services' ? 'current-menu-item': '' }}">
                         <a href="{{ route('services') }}" class="isubmenu">Services</a>
                         <i
                           class="fa fa-angle-down toggledrop"
@@ -76,41 +81,33 @@
                         ></i>
                         <ul class="sub-menu">
                           <li class="menu-item">
-                            <a href="data-analytics.html">Data Analytics</a>
+                            <a href="#">Data Analytics</a>
                           </li>
                           <li class="menu-item">
-                            <a href="managed-analytics.html">Managed Analytics</a>
+                            <a href="#">Managed Analytics</a>
                           </li>
                           <li class="menu-item">
-                            <a href="big-data-services.html">Big Data Services</a>
+                            <a href="#">Big Data Services</a>
                           </li>
                           <li class="menu-item">
-                            <a href="data-science-consulting.html"
-                              >Data Science Consulting</a
-                            >
+                            <a href="#">Data Science Consulting</a>
                           </li>
                           <li class="menu-item">
-                            <a href="business-intelligence.html"
-                              >Business Intelligence</a
-                            >
+                            <a href="#">Business Intelligence</a>
                           </li>
                           <li class="menu-item">
-                            <a href="data-visualization-services.html"
-                              >Data Visualization</a
-                            >
+                            <a href="#">Data Visualization</a>
                           </li>
                           <li class="menu-item">
-                            <a href="data-management.html">Data Management</a>
+                            <a href="#">Data Management</a>
                           </li>
                           <li class="menu-item">
-                            <a href="artificial-intelligence.html"
-                              >Artificial Intelligence</a
-                            >
+                            <a href="#">Artificial Intelligence</a>
                           </li>
                         </ul>
                       </li>
 
-                      <li class="menu-item">
+                      <li class="menu-item {{ $current_page == 'blogs' ? 'current-menu-item': '' }}">
                         <a href="{{ route('blogs') }}">Blogs</a>
                       </li>
                       @if (Route::has('login'))
@@ -137,7 +134,7 @@
                             <a title="Orders" href="{{ route('admin.blogs') }}">Blogs</a>
                         </li>
                         <li class="menu-item" >
-                            <a title="Conatct Messages" href="{{ route('admin.contact') }}">Conatct Messages</a>
+                            <a title="Conatct Messages" href="{{ route('admin.contact') }}">Contact Messages</a>
                         </li>
 
                         <li class="menu-item" >
@@ -174,7 +171,14 @@
                       </li>
                       @endif
                       @else
-                      <li></li>
+                      <li class="menu-item {{ $current_page == 'login' ? 'current-menu-item': '' }}">
+                        <a href="{{ route('services') }}" class="isubmenu">Account</a>
+                        <i class="fa fa-angle-down toggledrop" aria-hidden="true"></i>
+                        <ul class="sub-menu">
+                          <li class="menu-item dropdown-item" ><a title="Register or Login" href="{{ route('login') }}">Login</a></li>
+                          <li class="menu-item dropdown-item" ><a title="Register or Login" href="{{ route('register') }}">Register</a></li>
+                          </ul>
+                      </li>
                       @endauth
                       @endif
                     </ul>

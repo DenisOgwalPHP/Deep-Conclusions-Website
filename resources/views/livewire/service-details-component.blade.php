@@ -8,7 +8,7 @@
                             <h2 class="title">Service Details</h2>
                             <ol class="breadcrumb main-bg">
                                 <li class="breadcrumb-item"><a href="/">Home</a> </li>
-                                <li class="breadcrumb-item"><a href="#">Service</a></li>
+                                <li class="breadcrumb-item"><a href="/services">Service</a></li>
                                 <li class="breadcrumb-item">Service Details</li>
                             </ol>
                         </nav>

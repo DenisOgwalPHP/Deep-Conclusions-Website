@@ -1,4 +1,12 @@
 <div>
+  <style>
+    nav svg{
+        height: 20px;
+    }
+    nav .hidden{
+        display: block !important;
+    }
+</style>
     <div class="text-left iq-breadcrumb-one iq-bg-over black">
         <div class="container">
           <div class="row align-items-center">
@@ -49,8 +57,8 @@
                                         <td>{{ $category->name }}</td>
                                         <td>{{ $category->slug }}</td>
                                         <td>
-                                            <a href="{{ route('admin.editcategory', ['category_slug'=> $category->slug]) }}" ><i class="fas fa-edit fa-2x"></i></a>
-                                            <a href="#" onclick="confirm('Are you sure, You want to delete this category') || event.stopImmediatePropagation()"  wire:click.prevent="deleteCategory({{ $category->id }})" style="margin-left: 20px"><i class="fas fa-times fa-2x text-danger"></i></a>
+                                            <a href="{{ route('admin.editcategory', ['category_slug'=> $category->slug]) }}" ><i class="fa fa-edit fa-2x"></i></a>
+                                            <a href="#" onclick="confirm('Are you sure, You want to delete this category') || event.stopImmediatePropagation()"  wire:click.prevent="deleteCategory({{ $category->id }})" style="margin-left: 20px"><i class="fa fa-times fa-2x text-danger"></i></a>
                                         </td>
                                     </tr>
                                 @endforeach
